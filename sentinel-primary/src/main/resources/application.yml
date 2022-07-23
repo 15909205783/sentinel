@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: SentinelAnno
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:9000

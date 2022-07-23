@@ -1,0 +1,51 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/sentinel-cloud/mvnw.cmd
+/sentinel-cloud/mvnw
+/sentinel-cloud/.mvn/
+/sentinel-primary/.mvn/
+/sentinel-primary/mvnw
+/sentinel-primary/mvnw.cmd
+/sentinel_feign_parent/eureka_server/.mvn/
+/sentinel_feign_parent/eureka_server/mvnw
+/sentinel_feign_parent/eureka_server/mvnw.cmd
+/sentinel_feign_parent/sentinel_feign_client/mvnw
+/sentinel_feign_parent/sentinel_feign_client/mvnw.cmd
+/sentinel_feign_parent/sentinel_feign_client/.mvn/
+/mvnw
+/mvnw.cmd
+/sentinel_feign_parent/sentinel_feign_provider/mvnw
+/sentinel_feign_parent/mvnw
+/sentinel_feign_parent/sentinel_feign_provider/mvnw.cmd
+/sentinel_feign_parent/mvnw.cmd

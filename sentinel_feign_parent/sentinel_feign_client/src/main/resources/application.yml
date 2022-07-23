@@ -1,0 +1,23 @@
+server:
+  port: 9012
+
+spring:
+  application:
+    name: sentinel-feign-client
+
+
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:9000 #开启 sentinel对feign的支持
+#激活sentinel的支持
+feign:
+  sentinel:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      #eureka 服务地址，如果是集群的话；需要指定其他集群eureka地址
+      defaultZone: http://127.0.0.1:9010/eureka #需要注册到注册中心的地址
+      # 不注册自己
